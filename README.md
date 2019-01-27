@@ -10,7 +10,7 @@ Simple, incomplete version.<br>
 - S3GLCV01:<br>
 A complete version using 4D rotation matrix.<br>
 使用了旋转矩阵的版本。
--S3GLCVLR01:<br>
+- S3GLCVLR01:<br>
 3D side by side version. OpenGL part of codes are in S3GLCV01 folder.<br>
 可切换左右眼3D模式。GL部分代码在S3GLCV01文件夹内。
 
@@ -28,7 +28,7 @@ T-G: Change view angle 调整视角大小
 
 V-B: Move 4D projection point, from Stereographic Projection to Direct Projection. Press P to reset to Stereographic Projection. 调整四维投影点距离，最小为球极投影，最大为正投影。按P键重置。
 
-J-K: Change divsional angle 调整分割角，即各组经纬线内的角度
+J-K: Change divsional angle. The amount of meridians, hypermeridians and parallels will also be changed. 调整分割角，即各组经纬线内的角度，同时会改变经纬线的数量。
 
 N-M: Change multiplier (A bigger multiplier makes the circles rounder) 调整乘数因子使多边形更接近圆
 
@@ -39,3 +39,9 @@ Square Brackets: Adjust Pupil Distance in 3D mode 调整3D模式的瞳距
 Slash or Question Mark: Enable, disable 3D mode 3D模式开关
 
 ## Preview 预览
+
+![](https://github.com/hbcbs110/3-Sphere-StereographicProjection/blob/master/Screenshot/001.png)
+
+![](https://github.com/hbcbs110/3-Sphere-StereographicProjection/blob/master/Screenshot/002.png)
+
+![](https://github.com/hbcbs110/3-Sphere-StereographicProjection/blob/master/Screenshot/003.png)
